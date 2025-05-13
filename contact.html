@@ -1,0 +1,39 @@
+<!-- In contact.html's <main> section -->
+    <!-- In index.html, about.html, portfolio.html, contact.html -->
+<head>
+    <!-- ... other meta tags, title, etc. ... -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ... other links like Google Fonts, Font Awesome ... -->
+</head>
+<section id="contact-page" class="py-5">
+    <div class="container" data-aos="fade-up">
+        <h2 class="section-title text-center">Get In Touch</h2>
+        <p class="text-center lead-text mb-4">I'd love to hear from you! Whether you have a question or just want to say hi, feel free to reach out.</p>
+        <form id="contact-form" class="contact-form-styled">
+            <div class="form-group">
+                <label for="form-name">Full Name</label>
+                <input type="text" id="form-name" name="name" required>
+                <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="form-email">Email Address</label>
+                <input type="email" id="form-email" name="email" required>
+                <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="form-message">Message</label>
+                <textarea id="form-message" name="message" rows="6" required></textarea>
+                <span class="error-message"></span>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+  <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script> AOS.init({ duration: 1000, once: true }); </script>
+    <!-- Your Custom JS -->
+    <script src="script.js"></script>

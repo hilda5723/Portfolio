@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hilda Ruto | Customer Service & Software Engineer</title>
+    <!-- Google Fonts (Example: Poppins & Parisienne) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS - Animate On Scroll Library (for scroll animations) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Your Stylesheet -->
+     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="css/animations.css"> -->
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Hilda Ruto</a>
+            </div>
+                    <div class="social-links">
+            <a href="https://www.linkedin.com/in/hilda-ruto-50405921a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/hilda5723" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:hildajemeli@gmail.com" aria-label="Send Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://wa.me/254798546963" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+            <nav class="main-nav">
+                <button class="hamburger" id="hamburger-menu" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="portfolio.html">Experience</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container text-center">
+            <img src="IMG_20250321_180432_625.jpg" alt="Hilda Ruto" class="profile-pic" data-aos="fade-up"> <!-- Add your photo here -->
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">Hilda Ruto</h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                Dedicated Customer Service Expert & Budding Software Engineer
+            </p>
+            <p class="hero-tech-stack" data-aos="fade-up" data-aos-delay="300">
+                Proficient in: Python | JavaScript | HTML | CSS <br> Specializing in MERN Stack
+            </p>
+            <a href="contact.html" class="btn btn-primary" data-aos="fade-up" data-aos-delay="400">Get In Touch</a>
+        </div>
+        <!-- Optional: subtle background animation element -->
+        <div class="animated-bg"></div>
+    </section>
+
+    <!-- About Snippet Section -->
+    <section id="about-snippet" class="py-5" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title text-center">A Little About Me</h2>
+            <p class="text-center lead-text">
+                With a strong background in customer service and virtual assistance, I bring a unique blend of empathy, problem-solving, and technical aptitude. Now, I'm channeling my passion for technology into software engineering, focusing on creating elegant and efficient web solutions.
+            </p>
+            <div class="text-center mt-3">
+                <a href="about.html" class="btn btn-secondary">Read More About Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light-pink" data-aos="fade-up">
+        <div class="container">
+            <h2 class="section-title text-center">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-headset skill-icon"></i>
+                    <h3>Customer Service & VA</h3>
+                    <ul>
+                        <li>Zendesk, Gorgias, Shopify</li>
+                        <li>Email, Chat & Phone Support</li>
+                        <li>Ticket Management</li>
+                        <li>Calendar Management</li>
+                        <li>Administrative Support</li>
+                    </ul>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3>Software Engineering</h3>
+                    <ul>
+                        <li><strong>HTML5</strong> & <strong>CSS3</strong> (Responsive Design)</li>
+                        <li><strong>JavaScript</strong> (ES6+)</li>
+                        <li><strong>Python</strong></li>
+                        <li>MERN Stack (MongoDB, Express.js, React, Node.js) - *Learning & Specializing*</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-handshake-angle skill-icon"></i>
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Communication</li>
+                        <li>Problem-Solving</li>
+                        <li>Adaptability</li>
+                        <li>Attention to Detail</li>
+                        <li>Team Collaboration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="py-4 text-center">
+        <div class="container">
+            <p>© <span id="current-year"></span> Hilda Ruto. All Rights Reserved.</p>
+            <p>Powered by Coffee & Code (and a touch of Pink). <i class="fas fa-wand-sparkles" style="color: #E7A1B0;"></i></p>
+            <div class="social-links">
+                <!-- Add actual links -->
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:hildajemeli@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS - Animate On Scroll JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration: 1000, // values from 0 to 3000, with step 50ms
+          once: true, // whether animation should happen only once - while scrolling down
+      });
+    </script>
+    <!-- Your Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
