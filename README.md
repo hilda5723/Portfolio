@@ -74,7 +74,7 @@ The website consists of the following core pages:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/hilda5723/hilda-portfolio.git 
+ https://github.com/hilda5723/Portfolio.git 
     ```
 2.  **Navigate to the project directory:**
     ```bash
