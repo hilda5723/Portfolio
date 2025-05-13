@@ -73,10 +73,12 @@ The website consists of the following core pages:
 ## 💻 How to Run Locally
 
 1.  **Clone the repository:**
-    ```bash https://github.com/hilda5723/Portfolio.git 
+    ```bash
+    https://github.com/hilda5723/Portfolio.git 
     ```
 2.  **Navigate to the project directory:**
-    ```bash  cd portfolio 
+    ```bash
+    cd portfolio 
     ```
 3.  Open the `index.html` file in your preferred web browser.
 4.  Navigate through the pages using the site's navigation.
